@@ -13,7 +13,9 @@ body {
 .downloadLink {
 	color: aquamarine;
 	font-size: 16px;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 1rem;
 }
 
 h1 {
@@ -36,16 +38,25 @@ h2 {
 	font-size: 21px;
 }
 
+.phoneIcon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .guideDescription {
 	text-align: center;
 }
-.copyright {
-	text-align: end;
+
+.guideImage {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 2rem;
 }
 
 footer {
-	display: flex;
-	align-items: center;
-	justify-content: end;
-	text-align: end;
+	width: 100%;
+	text-align: right;
+	margin-right: 1rem;
 }
